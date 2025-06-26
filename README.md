@@ -62,13 +62,13 @@ cd python-docker-dev-example</code></pre>
   </ul>
 
   <h2>🐳 Run Locally Using Docker Compose</h2>
-  <pre><button class="copy-button" onclick="copyText(this)">Copy</button><code>docker compose up --build</code></pre>
+  <pre><button class="copy-button" onclick="copyText(this)"/button><code>docker compose up --build</code></pre>
 
   <h3>✅ Verify the App</h3>
-  <pre><button class="copy-button" onclick="copyText(this)">Copy</button><code>curl http://localhost:8001/</code></pre>
+  <pre><button class="copy-button" onclick="copyText(this)"/button><code>curl http://localhost:8001/</code></pre>
 
   <h2>🧼 Lint and Type Check</h2>
-  <pre><button class="copy-button" onclick="copyText(this)">Copy</button><code>pip install -r requirements.txt
+  <pre><button class="copy-button" onclick="copyText(this)"/button><code>pip install -r requirements.txt
 pip install pre-commit pyright
 pre-commit install
 pre-commit run --all-files
@@ -76,19 +76,19 @@ pyright</code></pre>
 
   <h2>☸️ Deploy to Kubernetes</h2>
   <h3>1. Apply Kubernetes Manifest</h3>
-  <pre><button class="copy-button" onclick="copyText(this)">Copy</button><code>kubectl apply -f docker-postgres-kubernetes.yaml</code></pre>
+  <pre><button class="copy-button" onclick="copyText(this)"/button><code>kubectl apply -f docker-postgres-kubernetes.yaml</code></pre>
 
   <h3>2. Get Services</h3>
-  <pre><button class="copy-button" onclick="copyText(this)">Copy</button><code>kubectl get services</code></pre>
+  <pre><button class="copy-button" onclick="copyText(this)"/button><code>kubectl get services</code></pre>
 
   <h3>3. Get Node Internal IP</h3>
-  <pre><button class="copy-button" onclick="copyText(this)">Copy</button><code>kubectl get nodes -o wide</code></pre>
+  <pre><button class="copy-button" onclick="copyText(this)"/button><code>kubectl get nodes -o wide</code></pre>
 
   <h3>4. Access the App (NodePort)</h3>
-  <pre><button class="copy-button" onclick="copyText(this)">Copy</button><code>curl http://&lt;INTERNAL-IP&gt;:30001/</code></pre>
+  <pre><button class="copy-button" onclick="copyText(this)">/button><code>curl http://&lt;INTERNAL-IP&gt;:30001/</code></pre>
 
   <h3>📍 Or Use Port Forwarding</h3>
-  <pre><button class="copy-button" onclick="copyText(this)">Copy</button><code>kubectl port-forward service/service-entrypoint 8001:8001
+  <pre><button class="copy-button" onclick="copyText(this)"/button><code>kubectl port-forward service/service-entrypoint 8001:8001
 curl http://localhost:8001/</code></pre>
 
   <h2>🚑 Troubleshooting</h2>
