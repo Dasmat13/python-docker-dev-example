@@ -110,13 +110,13 @@ curl http://localhost:8001/</code></pre>
   <h2>📜 License</h2>
   <p>MIT</p>
 
-  <script>
+  <!-- <script>
     function copyText(button) {
       const code = button.nextElementSibling.innerText;
       navigator.clipboard.writeText(code).then(() => {
         button.innerText = 'Copied!';
         setTimeout(() => button.innerText = 'Copy', 2000);
-      });
+      }); -->
     }
   </script>
 </body>
