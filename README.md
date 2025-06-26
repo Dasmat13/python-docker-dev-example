@@ -51,7 +51,7 @@ https://docs.docker.com/language/python/develop/
   <p>This guide helps you get started with cloning, running, and deploying this FastAPI + PostgreSQL project using Docker and Kubernetes.</p>
 
   <h2>📦 Clone the Repository</h2>
-  <pre><button class="copy-button" onclick="copyText(this)">Copy</button><code>git clone https://github.com/your-username/python-docker-dev-example.git
+  <pre><button class="copy-button" onclick="copyText(this)"/button><code>git clone https://github.com/your-username/python-docker-dev-example.git
 cd python-docker-dev-example</code></pre>
 
   <h2>⚙️ Requirements</h2>
