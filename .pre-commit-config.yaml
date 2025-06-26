@@ -1,6 +1,7 @@
-  https: https://github.com/charliermarsh/ruff-pre-commit
-  rev: v0.2.2
-  hooks:
-    - id: ruff
-      args: [--fix]
-    - id: ruff-format
+repos:
+  - repo: https://github.com/charliermarsh/ruff-pre-commit
+    rev: v0.2.2  # Use the latest compatible version
+    hooks:
+      - id: ruff
+        args: [--fix]  # Automatically fix lint issues
+      - id: ruff-format  # Automatically format files
